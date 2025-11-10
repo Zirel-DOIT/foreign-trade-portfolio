@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -258,3 +259,309 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简介网站</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Alex+Brush&family=Mr+Dafoe&family=Dancing+Script:wght@400;500;600;700&family=Pacifico&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 头部区域 -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#hero" class="logo-link">
+                    <span class="logo-text">LZH</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">首页</a></li>
+                <li><a href="#strengths">个人优势</a></li>
+                <li><a href="#experience">工作经历</a></li>
+                <li><a href="#projects">项目经历</a></li>
+                <li><a href="#education-skills">教育&技能</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+                🌙
+            </button>
+        </nav>
+    </header>
+
+    <!-- 主要内容区域 -->
+    <main>
+        <!-- 英雄区域 -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>你好，我是蓝紫惠</h1>
+                <p>专注于AI的初级前端开发者</p>
+                <a href="#projects" class="cta-button">查看我的作品</a>
+            </div>
+        </section>
+
+        <!-- 个人优势区域 -->
+        <section id="strengths" class="strengths-section">
+            <h2 class="fade-in-up">个人优势</h2>
+            <div class="strengths-grid">
+                <div class="strength-card fade-in-up delay-1">
+                    <div class="strength-icon">01</div>
+                    <h3>产品思维</h3>
+                    <p>能洞察用户痛点，并通过AI辅助独立完成项目，贯通"需求-设计-实现"闭环。</p>
+                </div>
+                <div class="strength-card fade-in-up delay-2">
+                    <div class="strength-icon">02</div>
+                    <h3>沟通转化</h3>
+                    <p>善于跨语境沟通，能将模糊需求转化为清晰的功能描述，便于与技术协作。</p>
+                </div>
+                <div class="strength-card fade-in-up delay-3">
+                    <div class="strength-icon">03</div>
+                    <h3>项目管理</h3>
+                    <p>具备出色的项目策划与多方协调能力，能高效推动项目落地。</p>
+                </div>
+                <div class="strength-card fade-in-up delay-4">
+                    <div class="strength-icon">04</div>
+                    <h3>数据驱动</h3>
+                    <p>具备数据敏感度，习惯用数据验证效果、驱动决策并达成目标。</p>
+                </div>
+                <div class="strength-card fade-in-up delay-5">
+                    <div class="strength-icon">05</div>
+                    <h3>快速学习</h3>
+                    <p>拥有强大自驱力，在无技术背景下快速学习并搭建AI开发环境产出成果。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 工作经历区域 -->
+        <section id="experience" class="experience-section">
+            <h2 class="fade-in-up">工作经历</h2>
+            <div class="experience-grid">
+                <div class="experience-card fade-in-up delay-1">
+                    <div class="experience-header">
+                        <h3>广东安第斯电源有限公司</h3>
+                        <span class="experience-period">2025.03 - 2025.10</span>
+                    </div>
+                    <div class="experience-position">外贸业务员</div>
+                    <ul class="experience-responsibilities">
+                        <li>通过全渠道运营（TikTok，Instagram等）进行市场开拓与客户开发</li>
+                        <li>独立完成从客户需求对接到促成大额订单的全流程</li>
+                        <li>负责新媒体运营，实现粉丝数增长5000+</li>
+                        <li>成功开发伊拉克客户，成交样品金额5W+</li>
+                        <li>接待广交会的伊拉克客户，参观工厂，并最终促成70W+大额订单</li>
+                    </ul>
+                </div>
+                <div class="experience-card fade-in-up delay-2">
+                    <div class="experience-header">
+                        <h3>东莞市星火教育科技有限公司</h3>
+                        <span class="experience-period">2024.02 - 2024.12</span>
+                    </div>
+                    <div class="experience-position">英语教师</div>
+                    <ul class="experience-responsibilities">
+                        <li>负责课程设计与教学执行</li>
+                        <li>通过分析学情制定个性化教学方案</li>
+                        <li>主导课件研发与家校沟通</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 项目经历区域 -->
+        <section id="projects" class="projects-section">
+            <h2 class="fade-in-up">项目经历</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in-up delay-1">
+                    <div class="project-header">
+                        <h3>AI产品能力自学与实践</h3>
+                        <span class="project-period">2025.08-至今</span>
+                    </div>
+                    <div class="project-background">
+                        <h4>项目背景</h4>
+                        <p>为了深入理解产品从构思到上线的全过程，并建立与技术团队沟通的能力，选择利用AI工具作为学习和实践的主要途径，通过完成实际项目来构建自己的知识体系。</p>
+                    </div>
+                    <div class="project-responsibilities">
+                        <h4>主要职责</h4>
+                        <ul>
+                            <li>智能待办清单项目：作为产品设计者与AI协作开发者，负责完整的产品需求、功能逻辑设计和用户体验流程</li>
+                            <li>个人简介网站项目：作为产品设计与项目管理者，主导网站的信息架构、视觉风格和栏目规划</li>
+                            <li>与AI编程助手进行多轮、精确的指令交互，指导其生成代码，并进行测试、验证和迭代</li>
+                        </ul>
+                    </div>
+                    <div class="project-achievements">
+                        <h4>项目成果</h4>
+                        <ul>
+                            <li>成功交付功能完整、体验流畅的智能待办清单单页应用</li>
+                            <li>成功上线设计专业、响应式的个人作品集网站</li>
+                            <li>精通AI辅助的产品开发流程，培养了扎实的技术同理心</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up delay-2">
+                    <div class="project-header">
+                        <h3>潮州市登塘镇农产品推广与环境研究</h3>
+                        <span class="project-period">2023.07-2023.08</span>
+                    </div>
+                    <div class="project-background">
+                        <h4>项目背景</h4>
+                        <p>负责农产品推广项目，通过实地走访与深度访谈进行市场调研，精准定位农户与消费者的核心需求。</p>
+                    </div>
+                    <div class="project-responsibilities">
+                        <h4>主要职责</h4>
+                        <ul>
+                            <li>参与撰写项目计划书及调研报告，策划线上推广方案</li>
+                            <li>独立完成宣传视频从脚本到拍摄、剪辑的全流程制作</li>
+                            <li>运营新媒体平台进行内容发布</li>
+                        </ul>
+                    </div>
+                    <div class="project-achievements">
+                        <h4>项目成果</h4>
+                        <ul>
+                            <li>通过系统化的调研、策划与新媒体推广，有效提升了当地农产品的区域市场认知度与影响力</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up delay-3">
+                    <div class="project-header">
+                        <h3>"绿宝贝"环保应用</h3>
+                        <span class="project-period">2022.09-2022.12</span>
+                    </div>
+                    <div class="project-background">
+                        <h4>项目背景</h4>
+                        <p>参与设计了一款融合垃圾分类与奖励机制的App，定义"正确投放-获得金币-兑换商品"的核心业务闭环。</p>
+                    </div>
+                    <div class="project-responsibilities">
+                        <h4>主要职责</h4>
+                        <ul>
+                            <li>产品定义与核心机制设计</li>
+                            <li>功能规划：策划知识科普、积分排行榜等增强用户粘性与活跃度的功能模块</li>
+                        </ul>
+                    </div>
+                    <div class="project-achievements">
+                        <h4>项目成果</h4>
+                        <ul>
+                            <li>早期参与了从0到1的产品构思过程</li>
+                            <li>锻炼了通过产品机制解决社会问题的创新思维</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 教育&技能区域 -->
+        <section id="education-skills" class="education-skills-section">
+            <h2 class="fade-in-up">教育&技能</h2>
+            <div class="education-skills-content fade-in-up delay-1">
+                <div class="education-column">
+                    <h3>教育背景</h3>
+                    <div class="education-card">
+                        <div class="education-header">
+                            <h4>广东科技学院</h4>
+                            <span class="education-period">2020 - 2024</span>
+                        </div>
+                        <div class="education-degree">本科 · 英语</div>
+                        <div class="education-honors">专业排名前15%</div>
+                    </div>
+                </div>
+                <div class="skills-column">
+                    <h3>技能专长</h3>
+                    <div class="skills-category">
+                        <h4>核心能力</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">产品思维与需求分析</span>
+                            <span class="skill-tag">AI辅助开发</span>
+                            <span class="skill-tag">技术协作沟通</span>
+                            <span class="skill-tag">项目管理能力</span>
+                            <span class="skill-tag">快速学习能力</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h4>工具软件</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">VSCode</span>
+                            <span class="skill-tag">AI编程助手</span>
+                            <span class="skill-tag">剪映</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h4>证书与奖项</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">英语专业八级</span>
+                            <span class="skill-tag">教师资格证(初中)</span>
+                            <span class="skill-tag">创新创业大赛二等奖</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系区域 -->
+        <section id="contact" class="contact-section">
+            <h2 class="fade-in-up">联系我</h2>
+            <div class="contact-content fade-in-up delay-1">
+                <div class="contact-grid">
+                    <!-- 左侧：联系方式列表 -->
+                    <div class="contact-info">
+                        <h3>联系方式</h3>
+                        <div class="contact-list">
+                            <div class="contact-item">
+                                <span class="contact-icon">📧</span>
+                                <div class="contact-details">
+                                    <strong>邮箱</strong>
+                                    <span><a href="mailto:lanka.900rt@gmail.com" class="contact-link">lanka.900rt@gmail.com</a></span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📱</span>
+                                <div class="contact-details">
+                                    <strong>电话</strong>
+                                    <span><a href="tel:13702929106" class="contact-link">13702929106</a></span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">🔗</span>
+                                <div class="contact-details">
+                                    <strong>GitHub</strong>
+                                    <span><a href="https://github.com/Zirel-DOIT" target="_blank" rel="noopener noreferrer" class="contact-link">https://github.com/Zirel-DOIT</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 右侧：联系表单 -->
+                    <div class="contact-form">
+                        <h3>发送消息</h3>
+                        <form class="form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="姓名" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="邮箱" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="消息" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-button">发送消息</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚区域 -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 个人简介网站. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript 文件链接 -->
+    <script src="script.js"></script>
+</body>
+</html>
+
